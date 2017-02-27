@@ -16,7 +16,7 @@ Usage
 * Load this mudule :
 
     ```js
-    const defaultValue = require('default-value');
+    const defaultValue = require('def-value');
     ```
 
 * Get default value if the property is undefined or null :
@@ -77,7 +77,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/default-value/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.0-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v0.1.1-blue.svg
 [npm-url]: https://www.npmjs.org/package/def-value/
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/license.MIT
