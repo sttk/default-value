@@ -7,7 +7,7 @@ Install
 -------
 
 ```
-$ npm i def-value --save
+$ npm i default-val --save
 ```
 
 Usage
@@ -16,7 +16,7 @@ Usage
 * Load this mudule :
 
     ```js
-    const defaultValue = require('def-value');
+    const defaultValue = require('default-val');
     ```
 
 * Get default value if the property is undefined or null :
@@ -78,7 +78,7 @@ See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/default-value/
 [npm-img]: https://img.shields.io/badge/npm-v0.1.1-blue.svg
-[npm-url]: https://www.npmjs.org/package/def-value/
+[npm-url]: https://www.npmjs.org/package/default-val/
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/license.MIT
 [travis-img]: https://travis-ci.org/sttk/default-value.svg?branch=master
