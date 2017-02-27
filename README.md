@@ -43,6 +43,14 @@ Usage
     defaultValue(987, new Date(0), '[object Date]') // => new Date(0)
     ```
 
+* And get value if it is invalid :
+
+    ```js
+    defaultValue(987, 0) // => 987
+    defaultValue(987, null, 'number') // => 987
+    defaultValue(987, 'ABC', '[object Number]') // => 987
+    ```
+
 API
 ---
 
