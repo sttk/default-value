@@ -7,7 +7,7 @@ Install
 -------
 
 ```
-$ npm i default-value --save
+$ npm i def-value --save
 ```
 
 Usage
@@ -78,7 +78,7 @@ See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/default-value/
 [npm-img]: https://img.shields.io/badge/npm-v0.1.0-blue.svg
-[npm-url]: https://www.npmjs.org/package/default-value/
+[npm-url]: https://www.npmjs.org/package/def-value/
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/license.MIT
 [travis-img]: https://travis-ci.org/sttk/default-value.svg?branch=master

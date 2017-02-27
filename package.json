@@ -1,5 +1,5 @@
 {
-  "name": "default-value",
+  "name": "def-value",
   "version": "0.1.0",
   "description": "Set default value with type check.",
   "main": "index.js",
