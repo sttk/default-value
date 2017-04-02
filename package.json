@@ -1,6 +1,6 @@
 {
   "name": "default-val",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Get a default value when a value is nullish or invalid type",
   "main": "index.js",
   "files": [
