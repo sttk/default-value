@@ -1,23 +1,23 @@
 'use strict';
 
-function defaultValue(value, defaultValue, type) {
+function defaultValue(value, defValue, type) {
   if (value == null) {
-    return defaultValue;
+    return defValue;
   }
 
   if (typeof value === 'number' && isNaN(value)) {
-    return defaultValue;
+    return defValue;
   }
 
   if (typeof type !== 'string') {
-    type = objectType(defaultValue);
+    type = objectType(defValue);
   }
 
   if (objectType(value) === type || typeof value === type) {
     return value;
   }
 
-  return defaultValue;
+  return defValue;
 }
 
 function objectType(value) {

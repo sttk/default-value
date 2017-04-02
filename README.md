@@ -19,21 +19,21 @@ Usage
     const defaultValue = require('default-val');
     ```
 
-* Get default value if the property is undefined or null :
+* Return the default value when the value is undefined or null :
 
     ```js
     defaultValue(undefined, true) // => true
     defaultValue(null, 123) // => 123
     ```
 
-* Get default property value if the number property is NaN :
+* Return the default value when the value is NaN :
 
     ```js
     defaultValue(NaN, 123) // => 123
     defaultValue(Infinity, 123) // => Infinity
     ```
 
-* Get default property value if the type of the property value is invalid :
+* Return the default value when the type of the value is invalid :
 
     ```js
     defaultValue(987, true) // => true
@@ -43,10 +43,11 @@ Usage
     defaultValue(987, new Date(0), '[object Date]') // => new Date(0)
     ```
 
-* And get value if it is invalid :
+* And return the value when it is valid :
 
     ```js
     defaultValue(987, 0) // => 987
+    defaultValue(987, 123, 'number') // => 987
     defaultValue(987, null, 'number') // => 987
     defaultValue(987, 'ABC', '[object Number]') // => 987
     ```
@@ -54,7 +55,7 @@ Usage
 API
 ---
 
-### <u>defaultValue(value, defaultValue [, type]) => any</u>
+### <u>defaultValue(value, defValue [, type]) => any</u>
 
 Returns the second argument when the first argument is `null`, `undefined` or `NaN`, or the type of the first argument is different from the type of the second argument.
 When the third argument is specified, returns the second argument if the type of the first argument is different from the type represented by the third argument.
