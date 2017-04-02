@@ -78,7 +78,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/default-value/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.3-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v0.1.4-blue.svg
 [npm-url]: https://www.npmjs.org/package/default-val/
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/license.MIT
