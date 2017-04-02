@@ -1,7 +1,7 @@
 [default-value][repo-url] [![NPM][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url] [![Coverage Status][coverage-img]][coverage-url]
 ===============
 
-Set default value with type check.
+Get a default value when a value is nullish or invalid type
 
 Install
 -------
@@ -64,10 +64,10 @@ The third argument can be specified the result of `typeof x` or `Object.prototyp
 * **Arguments:**
 
     * **value** [any] : a value to be evaluated.
-    * **defaultValue** [any] : a default value which is returned if **value** is invalid.
+    * **defValue** [any] : a default value which is returned if **value** is invalid.
     * **type** [string] : a type for a valid value. (optional)
 
-* **Return** [any] : **value** if **value** is valid, otherwise **defaultValue**.
+* **Return** [any] : **value** if **value** is valid, otherwise **defValue**.
 
 License
 -------
