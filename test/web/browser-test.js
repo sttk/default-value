@@ -1,3 +1,4 @@
+(function(){
 'use strict';
 
 
@@ -474,3 +475,5 @@ describe('Arguments', function() {
   });
 
 });
+
+})();
