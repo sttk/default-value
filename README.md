@@ -72,7 +72,7 @@ The third argument can be specified the result of `typeof x` or `Object.prototyp
 License
 -------
 
-Copyright (C) 2017 Takayuki Sato
+Copyright (C) 2017-2019 Takayuki Sato
 
 This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
