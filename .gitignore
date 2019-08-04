@@ -3,8 +3,9 @@ logs
 *.log
 npm-debug.log*
 
-# Coverage directory used by tools like istanbul
+# Coverage directory used by nyc
 coverage
+.nyc_output/
 
 # Dependency directories
 node_modules
